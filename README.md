@@ -6,6 +6,7 @@ These are the requirement that should be installed locally on your machine.
 
 - Node.js
 - React
+- An Atlas account for MongoDB
 
 
 ## How to setup node.js on your machine?
@@ -28,7 +29,8 @@ These are the requirement that should be installed locally on your machine.
 ```
     cd bloglist-frontend/
 ```
-
+- Setting up .env variable:
+This app requires a MongoDB URI to be present in the .env variable.
 - Install all the dependencies using:
 ```sh
     npm install 
